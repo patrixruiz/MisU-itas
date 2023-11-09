@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Uñitas</title>
+    <!-- CSS BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- MI CSS PERSONAL -->
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="icon" href="../img/favic.jpeg" type="image" sizes="32x32">
+</head>
+
+<body>
+
+    <!-- HEADER CON BOOTSTRAP -->
+    <header class="navbar navbar-expand-lg encabezado">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img class="tamLogo" href="../index.html" src="../img/logo.jpg" alt="Logo Mis Uñitas">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav fuentesNav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/turnos.html">Turnos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Contacto -->
+    <div class="tituloQuienes">
+        <h2>Contacto</h2>
+
+        <h3>Nuestro Equipo se Pondra en Contacto Contigo</h3>
+    </div>
+
+
+    <main class="contactito">
+        <form class="sectionAx">
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                <input type="text" class="form-control  cajaContacto" id="formGroupExampleInput"
+                    placeholder="Ej. Patricio">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Apellido</label>
+                <input type="text" class="form-control  cajaContacto" id="formGroupExampleInput2"
+                    placeholder="Ej. Ruiz">
+            </div>
+
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Mail</label>
+                <input type="email" class="form-control  cajaContacto" id="formGroupExampleInput"
+                    placeholder="Ej. patricio@gmail.com">
+            </div>
+
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Numero de Contacto</label>
+                <input type="number" class="form-control  cajaContacto" id="formGroupExampleInput2"
+                    placeholder="Ej. 3884521785">
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control cajaContacto" placeholder="Leave a comment here" id="floatingTextarea2"
+                    style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Deje su Mensaje</label>
+            </div>
+
+            <button type="button" class="btn btn-primary btn-sm boton">ENVIAR</button>
+            <button type="button" class="btn btn-secondary btn-sm boton">DESHACER</button>
+        </form>
+        
+        <div class="card mb-3 sectionBx cajaPerfil">
+            <img src="../img/patricio (1).jpeg" class="card-img fotos" alt="foto de patricio">
+            <div class="card-img-top ">
+                <h5 class="card-title">Patricio Ruiz</h5>
+                <p class="card-text">Patricio Ruiz del Sector de Comunicaciones se pondra en contacto contigo a la
+                    brevedad.Muchas gracias por tu consulta.</p>
+            </div>
+        </div>
+
+
+    </main>
+    <footer class="footer">
+        <p class="ms-xl-5 ms-sm-3 ms-xs-1">&copy; 2023 Mis Uñitas</p>
+        <span>
+            <a href="https://www.instagram.com/marcelakarinavaldiviezo/?hl=es" class="enlace" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=100000194513884&mibextid=LQQJ4d" class="enlace" target="_blank">Facebook</a>
+            <a href="https://www.discord.com" class="enlace me-xl-5 me-sm-3 me-xs-1 ms-2" target="_blank">Youtube</a>
+        </span>
+    </footer>
+
+
+
+
+
+
+    <!-- JS BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

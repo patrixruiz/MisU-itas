@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Uñitas</title>
+    <!-- CSS BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- MI CSS PERSONAL -->
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" href="img/favic.jpeg" type="image" sizes="32x32">
+</head>
+
+<body>
+    <!-- HEADER CON BOOTSTRAP -->
+    <header class="navbar navbar-expand-lg encabezado">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="tamLogo" href="index.html" src="img/logo.jpg" alt="Logo Mis Uñitas">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav fuentesNav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/turnos.html">Turnos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- CAROUSEL -->
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/banner1.jpg" class="d-block w-100" alt="Imagen de Promocion">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/baner2.jpg" class="d-block w-100" alt="Imagen de Descuentos">
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Quines somos  -->
+        <div class="tituloQuienes">
+            <h2>Quienes Somos!</h2>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="img/quienessomos.jpeg" class="card-img-top fotos" alt="foto Marcela">
+                <div class="card-body tarjetaPres">
+                    <h5 class="card-title nombreTarjeta">Marcela Valdiviezo</h5>
+                    <p class="card-text descripcionTarjeta">Marcela Karina es la dueña de Mis Uñitas, quien fundo esta empresa en el año
+                        2020, acutualmente sigue capacitandose para mejor dia a dia el servicio para sus clientas.
+                        Para ella hacer uñas no es un trabajo, ya que es una de las activades que mas le gusta hacer.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/patricio (1).jpeg" class="card-img-top fotos" alt="foto patricio">
+                <div class="card-body tarjetaPres">
+                    <h5 class="card-title nombreTarjeta">Patricio Ruiz</h5>
+                    <p class="card-text descripcionTarjeta">Patricio Ruiz es actualmente el encargado del sector de comunicaciones de esta
+                        empresa, es quien se encarga de los pedidos y de manejar la agenda de turnos. Cuando deseen
+                        hacer cualquier tipo de consultas el sera quien los ayudara.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/pablo.jpeg" class="card-img-top fotos" alt="foto pablo">
+                <div class="card-body tarjetaPres">
+                    <h5 class="card-title nombreTarjeta">Pablo Ruiz</h5>
+                    <p class="card-text descripcionTarjeta">Pablo es el actual encargado de Marketing de la empresa, si estas en este sitio
+                        web posiblemente sea gracias a el. Es el encargado de manejar reuniones, eventos y de hacer
+                        crecer a nuestra empresa.</p>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer class="footer">
+        <p class="ms-xl-5 ms-sm-3 ms-xs-1">&copy; 2023 Mis Uñitas</p>
+        <span>
+            <a href="https://www.instagram.com" class="enlace" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com" class="enlace" target="_blank">Facebook</a>
+            <a href="https://www.discord.com" class="enlace me-xl-5 me-sm-3 me-xs-1 ms-2" target="_blank">Youtube</a>
+        </span>
+    </footer>
+
+    <!-- JS BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
