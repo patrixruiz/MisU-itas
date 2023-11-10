@@ -1,198 +1,190 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.cajaContacto {
+  background-color: rgb(255, 213, 213);
+  max-width: 300px;
+}
 
-body {
-    font-family: 'Roboto', sans-serif;
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.embed-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 50%;
+  height: 100%;
 }
 
 .tamLogo {
-    width: 250px;
+  width: 250px;
 }
 
 .encabezado {
-    border-top: 20px solid rosybrown;
-    background-color:rgb(255, 213, 213);
-
+  border-top: 20px solid rosybrown;
+  background-color: rgb(255, 213, 213);
 }
 
 .fuentesNav {
-    font-size: 20px;
-    text-transform: uppercase;
-    padding-left: 15px;
-    font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-left: 15px;
+  font-weight: bold;
 }
-
 .fuentesNav a:hover {
-    background-color:burlywood;
-    color: #fafafa;
-}
-
-.tituloQuienes {
-    background-color: rosybrown;
-    color: black;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 16px;
-    
-}
-
-.fotos {
-    width: 100%;
-    height: 400px;
-    object-fit: contain;
-    background-color: rosybrown;
-    
-}
-.tarjetaPres {
-    background-color: rgb(255, 213, 213);
-}
-.contenedorProducto {
-    background-color: rosybrown;
-    padding: 30px;
-
-}
-
-.boton {
-    padding: 10px 20px;
-    background-color: #2ecc71;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    margin-top: 50px;
-    margin: 20px;
-}
-
-label {
-    font-weight: bold;
-    margin-bottom: 10px;
-} 
-
-main {
-    background-color: rosybrown;
-}
-
-.cajaContacto {
-
-    background-color: rgb(255, 213, 213);
-    max-width: 300px;
-
-}
-.turnito {
-    
-    display: grid;
-    grid-template-areas: 
-    "sectionA sectionB"
-    ;
-}   
-.contactito {
-    display: grid;
-    grid-template-areas: 
-    "sectionAx sectionBx"
-    ;
-}
-.cajaPerfil { 
-    width: 350px;
-    background-color: rgb(255, 213, 213); ;
-    
+  background-color: burlywood;
+  color: #fafafa;
 }
 
 footer {
-    background-color: rgb(255, 213, 213);
-    padding: 10px;
-    border-top: solid 2px;
-    margin-top: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  footer p {
-    color: black;
-    display: inline;
-    margin-top: 0;
-    margin-bottom: 0;
-    cursor: default;
-  }
-
-  .enlace {
-    padding: 5px;
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    font-weight: bolder;
-  }
-
-.embed-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden; 
+  background-color: rgb(255, 213, 213);
+  padding: 10px;
+  border-top: solid 2px;
+  margin-top: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.embed-container iframe {
-    position: absolute;
-    top:0;
-    left: 0px;
-    width: 50%;
-    height: 100%;
+footer p {
+  color: black;
+  display: inline;
+  margin-top: 0;
+  margin-bottom: 0;
+  cursor: default;
+}
+
+.enlace {
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.cajaPerfil {
+  width: 350xx;
+  background-color: rgb(255, 213, 213);
+}
+
+.contenedorProducto {
+  background-color: rosybrown;
+  padding: 30px;
+}
+
+.boton {
+  padding: 10px 20px;
+  background-color: #2ecc71;
+  color: #fafafa;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 50px;
+  margin: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+main {
+  background-color: rosybrown;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.turnito {
+  display: grid;
+  grid-template-areas: "sectionA sectionB";
+}
+
+.contactito {
+  display: grid;
+  grid-template-areas: "sectionAx sectionBx";
+}
+
+@media (max-width: 1000px) {
+  .turnito {
+    display: grid;
+    grid-template-areas: "sectionA" "sectionB";
+  }
+  .contactito {
+    display: grid;
+    grid-template-areas: "sectionAx" "sectionBx";
+  }
+}
+.fotos {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+  background-color: rosybrown;
+}
+
+.tarjetaPres {
+  background-color: rgb(255, 213, 213);
 }
 
 .nombreTarjeta {
-    text-align: center;
-    text-decoration: black;
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: black;
+  color: black;
+  font-weight: bold;
 }
-.descripcionTarjeta{
-    text-align: justify;
-    color: rgb(37, 37, 37);
-    
+
+.descripcionTarjeta {
+  text-align: justify;
+  color: rgb(37, 37, 37);
 }
-h2{
-    font-weight: 999;
-    text-align: center;
-    color: black;
-    text-transform: uppercase;
-    text-decoration: double;
-}
+
 .tituloProducto {
-    text-align: center;
-    text-decoration: black;
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: black;
+  color: black;
+  font-weight: bold;
 }
+
 .descripcionProd {
-    text-align: justify;
-    color: rgb(37, 37, 37);
+  text-align: justify;
+  color: rgb(37, 37, 37);
 }
 
 .tituloGaleria {
-    text-align: center;
-    text-decoration: black;
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: black;
+  color: black;
+  font-weight: bold;
 }
 
-/* RESPONSIVE */
-@media (max-width:1000px) {
-.turnito {
-    display: grid;
-    grid-template-areas: 
-    "sectionA" 
-    "sectionB"
-    ;
-} 
+.tituloQuienes {
+  background-color: rosybrown;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px;
+}
 
-.contactito {
-    display: grid;
-    grid-template-areas: 
-    "sectionAx" 
-    "sectionBx"
-    ;
+h2 {
+  font-weight: 999;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: double;
 }
-}
+
+/*# sourceMappingURL=estilo.css.map */

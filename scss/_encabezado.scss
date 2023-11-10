@@ -1,0 +1,20 @@
+.tamLogo {
+    width: 250px;
+}
+
+.encabezado {
+    border-top: 20px solid $color-rosa;
+    background-color: $color-rosita;
+}
+
+.fuentesNav {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-weight: bold;
+
+    a:hover {
+        background-color: burlywood;
+        color: $color-blanco;
+    }
+}

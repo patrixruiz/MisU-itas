@@ -1,0 +1,21 @@
+.turnito {
+    display: grid;
+    grid-template-areas: "sectionA sectionB";
+}
+
+.contactito {
+    display: grid;
+    grid-template-areas: "sectionAx sectionBx";
+}
+
+@media (max-width: 1000px) {
+    .turnito {
+        display: grid;
+        grid-template-areas: "sectionA" "sectionB";
+    }
+
+    .contactito {
+        display: grid;
+        grid-template-areas: "sectionAx" "sectionBx";
+    }
+}
