@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
 .cajaContacto {
   background-color: rgb(255, 213, 213);
   max-width: 300px;
@@ -17,6 +18,7 @@
   height: 0;
   overflow: hidden;
 }
+
 .embed-container iframe {
   position: absolute;
   top: 0;
@@ -40,6 +42,7 @@
   padding-left: 15px;
   font-weight: bold;
 }
+
 .fuentesNav a:hover {
   background-color: burlywood;
   color: #fafafa;
@@ -54,12 +57,14 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+
 footer p {
   color: black;
   display: inline;
   margin-top: 0;
   margin-bottom: 0;
   cursor: default;
+  text-align: end;
 }
 
 .enlace {
@@ -73,12 +78,22 @@ footer p {
 .cajaPerfil {
   width: 350xx;
   background-color: rgb(255, 213, 213);
+  border-color: black;
 }
 
 .contenedorProducto {
   background-color: rosybrown;
   padding: 30px;
+
 }
+
+.cajita {
+  margin-top: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+
 
 .boton {
   padding: 10px 20px;
@@ -127,14 +142,16 @@ body {
     display: grid;
     grid-template-areas: "sectionA" "sectionB";
   }
+
   .contactito {
     display: grid;
     grid-template-areas: "sectionAx" "sectionBx";
   }
 }
+
 .fotos {
   width: 100%;
-  height: 400px;
+  height: 300px;
   object-fit: contain;
   background-color: rosybrown;
 }
@@ -167,6 +184,7 @@ body {
 .descripcionProd {
   text-align: justify;
   color: rgb(37, 37, 37);
+  padding: 10px;
 }
 
 .tituloGaleria {
@@ -186,12 +204,18 @@ body {
   padding: 16px;
 }
 
-h2 {
+h1 {
   font-weight: 999;
   text-align: center;
   color: black;
   text-transform: uppercase;
   text-decoration: double;
+}
+
+h3 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=estilo.css.map */

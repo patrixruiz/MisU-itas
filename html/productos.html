@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Mis Uñitas Productos</title> 
-    <meta name="description" content="En esta Seccion se pueden comprar distintos tipos de productos utilizados para el cuidado de las uñas y tambien para el cuidado de la piel, otra importante producto son la tarjetas para cumpleaños">
- 
+    <title>Mis Uñitas Productos</title>
+    <meta name="description"
+        content="En esta Seccion se pueden comprar distintos tipos de productos utilizados para el cuidado de las uñas y tambien para el cuidado de la piel, otra importante producto son la tarjetas para cumpleaños">
+
     <!-- CSS BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -16,7 +17,7 @@
     <link rel="icon" href="../img/favic.jpeg" type="image" sizes="32x32">
 </head>
 
-<body>
+<body class="container-fluid">
 
     <!-- HEADER CON BOOTSTRAP -->
     <header class="navbar navbar-expand-lg encabezado">
@@ -50,107 +51,143 @@
         </div>
     </header>
 
-    <main>
+    <main class="container-fluid">
         <!-- Productos a la Venta -->
         <div class="tituloQuienes">
-            <h2>Productos a la Venta</h2>
+            <h1>Productos a la Venta</h1>
         </div>
 
 
-        <div class="row contenedorProducto">
 
-            <div class="card col-xl-3 col-md-6 col-sm-12">
-                <img src="../img/producto (1).jpeg" class="card-img-top" alt="combo 12 Esmaltes">
-                <div class="card-body tarjetaPres">
-                    <h5 class="card-title tituloProducto">Combo de 12 Esmaltes</h5>
-                    <p class="card-text descripcionProd">Combo de 12 esmaltes de distintos colores de marca OPI. Los mejores del mercado</p>
-                    <a href="#" class="btn btn-primary boton">Agregar al Carrito</a>
-                </div>
-            </div>
 
-            <div class="card col-xl-3 col-md-6 col-sm-12">
-                <img src="../img/producto (2).jpeg" class="card-img-top" alt="Combo Esmaltes y Limas">
-                <div class="card-body tarjetaPres">
-                    <h5 class="card-title tituloProducto">Combo de Esmaltes y Limas</h5>
-                    <p class="card-text descripcionProd">Combo de esmaltes (Colores mas utilizados) y kit de limas y cortacuticulas, ideal para el cuidado en casa</p>
-                    <a href="#" class="btn btn-primary boton">Agregar al Carrito</a>
-                </div>
-            </div>
-
-            <div class="card col-xl-3 col-md-6 col-sm-12">
-                <img src="../img/producto (3).jpeg" class="card-img-top" alt="Set de 20 Esmaltes">
-                <div class="card-body tarjetaPres">
-                    <h5 class="card-title tituloProducto">Combo 20 de Esmaltes</h5>
-                    <p class="card-text descripcionProd">Combo de 12 esmaltes de distintos colores de marca OPI. Ideal para regalo</p>
-                    <a href="#" class="btn btn-primary boton">Agregar al Carrito</a>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 contenedorProducto">
+            <div class="col">
+                <div class="card cajita">
+                    <img src="../img/producto (1).jpeg" class="card-img-top fotos" alt="combo 12 Esmaltes">
+                    <div class="card-body tarjetaPres">
+                        <h5 class="card-title tituloProducto">Combo de 12 Esmaltes</h5>
+                        <p class="card-text descripcionProd">Combo de 12 esmaltes de distintos colores de marca OPI. Los
+                            mejores del mercado</p>
+                        <a href="#" class="btn btn-primary boton">Agregar al Carrito</a>
+                    </div>
                 </div>
             </div>
 
 
-            <div class="card col-xl-3 col-md-6 col-sm-12">
-                <img src="../img/combocrema.jpeg" class="card-img-top" alt="Combo de cremas">
-                <div class="card-body tarjetaPres">
-                    <h5 class="card-title tituloProducto">Set de Cremas MK</h5>
-                    <p class="card-text descripcionProd">Set de cremas Mery Kay para el cuidado de la piel. Ideal para cuidarnos del sol</p>
-                    <a href="#" class="btn btn-primary boton">Agregar al Carrito</a>
+            <div class="col">
+                <div class="card cajita">
+                    <img src="../img/producto (2).jpeg" class="card-img-top fotos" alt="Combo Esmaltes y Limas">
+                    <div class="card-body tarjetaPres">
+                        <h5 class="card-title tituloProducto">Combo con Limas</h5>
+                        <p class="card-text descripcionProd">Combo de esmaltes y kit de limas y
+                            cortacuticulas, ideal para el cuidado en casa</p>
+                        <a href="#" class="btn btn-primary boton">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card cajita">
+                    <img src="../img/producto (3).jpeg" class="card-img-top fotos" alt="Set de 20 Esmaltes">
+                    <div class="card-body tarjetaPres">
+                        <h5 class="card-title tituloProducto">Combo 20 de Esmaltes</h5>
+                        <p class="card-text descripcionProd">Combo de 12 esmaltes de distintos colores de marca OPI.
+                            Ideal para regalo</p>
+                        <a href="#" class="btn btn-primary boton">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card cajita">
+                    <img src="../img/combocrema.jpeg" class="card-img-top fotos" alt="Combo de cremas">
+                    <div class="card-body tarjetaPres">
+                        <h5 class="card-title tituloProducto">Set de Cremas MK</h5>
+                        <p class="card-text descripcionProd">Set de cremas Mery Kay para el cuidado de la piel. Ideal
+                            para cuidarnos del sol</p>
+                        <a href="#" class="btn btn-primary boton">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card cajita">
+                    <img src="../img/giftcard.jpeg" class="card-img-top fotos" alt="Giftcard milpesos">
+                    <div class="card-body tarjetaPres">
+                        <h5 class="card-title tituloProducto">Gift Card $1000</h5>
+                        <p class="card-text descripcionProd">Gift-Card regalo ideal para que sea utilizado en lo que mas
+                            se guste</p>
+                        <a href="#" class="btn btn-primary boton">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card cajita">
+                    <img src="../img/giftcard.jpeg" class="card-img-top fotos" alt="Giftcar dosmilpesos">
+                    <div class="card-body tarjetaPres">
+                        <h5 class="card-title tituloProducto">Gift Card $2000</h5>
+                        <p class="card-text descripcionProd">Gift-Card regalo ideal para que sea utilizado en lo que mas
+                            se guste</p>
+                        <a href="#" class="btn btn-primary boton">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card cajita">
+                    <img src="../img/giftcard.jpeg" class="card-img-top fotos" alt="Giftcard tresmil pesos">
+                    <div class="card-body tarjetaPres">
+                        <h5 class="card-title tituloProducto">Gift Card $3000</h5>
+                        <p class="card-text descripcionProd">Gift-Card regalo ideal para que sea utilizado en lo que mas
+                            se guste</p>
+                        <a href="#" class="btn btn-primary boton">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card cajita">
+                    <img src="../img/giftcard.jpeg" class="card-img-top fotos" alt="Giftcard 4milpesos">
+                    <div class="card-body tarjetaPres">
+                        <h5 class="card-title tituloProducto">Gift Card $4000</h5>
+                        <p class="card-text descripcionProd">Gift-Card regalo ideal para que sea utilizado en lo que mas
+                            se guste</p>
+                        <a href="#" class="btn btn-primary boton">Agregar al Carrito</a>
+                    </div>
                 </div>
             </div>
 
 
 
         </div>
-        <div class="row contenedorProducto">
-
-            <div class="card col-xl-3 col-md-6 col-sm-12">
-                <img src="../img/giftcard.jpeg" class="card-img-top" alt="Giftcard milpesos">
-                <div class="card-body tarjetaPres">
-                    <h5 class="card-title tituloProducto">Gift Card $1000</h5>
-                    <p class="card-text descripcionProd">Gift-Card regalo ideal para que sea utilizado en lo que mas se guste</p>
-                    <a href="#" class="btn btn-primary boton">Agregar al Carrito</a>
-                </div>
-            </div>
-
-            <div class="card col-xl-3 col-md-6 col-sm-12">
-                <img src="../img/giftcard.jpeg" class="card-img-top" alt="Giftcar dosmilpesos">
-                <div class="card-body tarjetaPres">
-                    <h5 class="card-title tituloProducto">Gift Card $2000</h5>
-                    <p class="card-text descripcionProd">Gift-Card regalo ideal para que sea utilizado en lo que mas se guste</p>
-                    <a href="#" class="btn btn-primary boton">Agregar al Carrito</a>
-                </div>
-            </div>
-
-            <div class="card col-xl-3 col-md-6 col-sm-12">
-                <img src="../img/giftcard.jpeg" class="card-img-top" alt="Giftcard tresmil pesos">
-                <div class="card-body tarjetaPres">
-                    <h5 class="card-title tituloProducto">Gift Card $3000</h5>
-                    <p class="card-text descripcionProd">Gift-Card regalo ideal para que sea utilizado en lo que mas se guste</p>
-                    <a href="#" class="btn btn-primary boton">Agregar al Carrito</a>
-                </div>
-            </div>
-
-
-            <div class="card col-xl-3 col-md-6 col-sm-12">
-                <img src="../img/giftcard.jpeg" class="card-img-top" alt="Giftcard 4milpesos">
-                <div class="card-body tarjetaPres">
-                    <h5 class="card-title tituloProducto">Gift Card $4000</h5>
-                    <p class="card-text descripcionProd">Gift-Card regalo ideal para que sea utilizado en lo que mas se guste descripcionProd</p>
-                    <a href="#" class="btn btn-primary boton">Agregar al Carrito</a>
-                </div>
-            </div>
-
 
 
         </div>
+
+
     </main>
 
 
     <footer class="footer">
-        <p class="ms-xl-5 ms-sm-3 ms-xs-1">&copy; 2023 Mis Uñitas</p>
-        <span>
-            <a href="https://www.instagram.com" class="enlace" target="_blank">Instagram</a>
-            <a href="https://www.facebook.com" class="enlace" target="_blank">Facebook</a>
-            
-        </span>
+        <div class="container d-flex flex-column flex-lg-row justify-content-between align-items-center">
+            <div class="mb-3 mb-lg-0">
+                <p class="copy">© 2023 Mis Uñitas</p>
+            </div>
+            <div>
+
+
+                <span>
+                    <a href="https://instagram.com/marcelakarinavaldiviezo?igshid=NGVhN2U2NjQ0Yg==" class="enlace"
+                        target="_blank">Instagram</a>
+
+                    <a href="https://www.facebook.com/profile.php?id=100000194513884&mibextid=LQQJ4d" class="enlace"
+                        target="_blank">Facebook</a>
+
+                </span>
     </footer>
 
     <a href="https://api.whatsapp.com/send?phone=223123456&text=Hola,%20dejanos%20tu%20consulta%20" target="_blank">
